@@ -2,10 +2,13 @@
 
 ## Grupo
 ### Integrantes
-* legajo - Apellido(s), Nombre(s)
+* 51377 - Mirko Recchi
+* 50176 - Matias Arrebillaga
+* 53750 - Leandro Battocchio
+* 54129 - Lucas Fernández
 
 ### Repositorios
-* [frontend app](http://hyperlinkToGihubOrGitlab)
+* [frontend app]([http://hyperlinkToGihubOrGitlab](https://github.com/matiasArrebillaga/Managment-karting-frontend))
 * [backend app](http://hyperlinkToGihubOrGitlab)
 *Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
 
