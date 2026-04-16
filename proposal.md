@@ -8,32 +8,31 @@
 * 54129 - Lucas Fernández
 
 ### Repositorios
-* [frontend app]([http://hyperlinkToGihubOrGitlab](https://github.com/matiasArrebillaga/Managment-karting-frontend))
-* [backend app](http://hyperlinkToGihubOrGitlab)
+* [frontend app](https://github.com/matiasArrebillaga/Managment-karting-frontend)
+* [backend app](https://github.com/matiasArrebillaga/Managment-karting-backend)
 *Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
 
 ## Tema
 ### Descripción
-*2 a 6 líneas describiendo el negocio (menos es más)*
+sistema de gestion de reserva de kartings con posibilidad de inscribirse a torneos trimestrales ligado a un sistema de licencias para manejar los karting.
 
 ### Modelo
-![imagen del modelo]()
+<img width="1151" height="744" alt="Kartings-Management-MD" src="https://github.com/user-attachments/assets/d0deac7e-2a6e-4e92-8940-b28337ca5341" />
 
-*Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
+
 
 ## Alcance Funcional 
 
 ### Alcance Mínimo
 
-*Nota*: el siguiente es un ejemplo para un grupo de 3 integrantes para un sistema de hotel. El 
 
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad|
-|CRUD dependiente|1. CRUD Habitación {depende de} CRUD Tipo Habitacion<br>2. CRUD Cliente {depende de} CRUD Localidad|
-|Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
+|CRUD simple|1. CRUD Tipo Licencia<br>2. CRUD Karting<br>3. CRUD Localidad<br>4. CRUD Circuito|
+|CRUD dependiente|1. CRUD Licencia {depende de} CRUD Tipo Licencia<br>2. CRUD Persona {depende de} CRUD Localidad|
+|Listado<br>+<br>detalle| 1. Listado de torneos disponibles filtrado por tipo de licencia, muestra id y tipo de licencia => detalle CRUD Torneo<br> 2. Listado de reservas filtrado por rango de fecha, muestra id de karting y nombre de la persona => detalle muestra datos completos de la reserva y de la persona|
+|CUU/Epic|1. Reservar un karting para un circuito<br>2. Anotarse a un torneo disponible|
 
 
 Adicionales para Aprobación
