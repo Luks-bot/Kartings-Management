@@ -29,8 +29,8 @@ sistema de gestion de reserva de kartings con posibilidad de inscribirse a torne
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Tipo Licencia<br>2. CRUD Karting<br>3. CRUD Localidad<br>4. CRUD Circuito|
-|CRUD dependiente|1. CRUD Licencia {depende de} CRUD Tipo Licencia<br>2. CRUD Persona {depende de} CRUD Localidad|
+|CRUD simple|1. CRUD Tipo Licencia<br>2. CRUD TipoKarting<br>3. CRUD Localidad<br>4. CRUD Circuito|
+|CRUD dependiente|1. CRUD Licencia {depende de} CRUD Tipo Licencia<br>2. CRUD Karting {depende de} CRUD TipoKarting|
 |Listado<br>+<br>detalle| 1. Listado de torneos disponibles filtrado por tipo de licencia, muestra id y tipo de licencia => detalle CRUD Torneo<br> 2. Listado de reservas filtrado por rango de fecha, muestra id de karting y nombre de la persona => detalle muestra datos completos de la reserva y de la persona|
 |CUU/Epic|1. Reservar un karting para un circuito<br>2. Anotarse a un torneo disponible|
 
@@ -38,7 +38,7 @@ Regularidad:
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Tipo Licencia<br>2. CRUD Karting<br>3. CRUD Localidad<br>4. CRUD Circuito<br>5. CRUD Torneo<br>6. CRUD Licencia<br>7. CRUD Persona<br>8. CRUD Reserva|
+|CRUD |1. CRUD Tipo Licencia<br>2. CRUD TipoKarting<br>3. CRUD Localidad<br>4. CRUD Circuito<br>5. CRUD Torneo<br>6. CRUD Licencia<br>7. CRUD Karting<br>8. CRUD Reserva|
 |CUU/Epic|1. Reservar un karting para un circuito<br>2. Anotarse a un torneo disponible<br>3. Registrar los resultados de una carrera y actualizar la tabla de puntos del torneo.|
 
 
